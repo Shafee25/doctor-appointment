@@ -1,0 +1,43 @@
+body {
+  background-color: white;
+}
+
+p {
+  font-family: arival;
+  font-size: 20px;
+  text-align: left;
+  color: #9808756;
+  
+}
+body {
+  background-image:url( 'abt.jpg');
+  background-repeat: no-repeat;
+  background-size: 120%;
+  color: black;
+}
+
+h1 {
+  
+  color: blue;
+   text-align: center;
+}
+
+div {
+  background-color: blue;
+  color: white;
+}
+h3 {
+  color:white;
+   text-align: center;
+}
+
+h2 {
+ 
+  color: blue;
+   text-align: left;
+}
+
+.a{
+	text-align: center;
+	color: blue;
+}

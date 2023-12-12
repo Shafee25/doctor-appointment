@@ -1,0 +1,89 @@
+*{
+	margin:0 ;
+	padding:0 ;
+}
+
+body{
+	height:100vh ;
+	width: 100%;
+	background: url(9.jpg);
+	background-repeat: no-repeat ;
+	background-size:cover ;
+}
+
+
+.main{
+	top:48% ;
+	left:42%;
+	position: absolute;
+	transform: translate(-48%,-42%);
+	width: 350px;
+	background-color:#ffffff90 ;
+	padding: 40px;
+	border-radius:20px ;
+	height: 350px;
+}
+
+h1{
+	border-bottom: 2px solid silver;
+	font-family:Georgia ;
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+a{
+	text-decoration: none;
+	color: blue;
+}
+a:hover{
+	text-decoration: underline;
+	font-family:ink free ;
+	font-size: 20px;
+	color: #1c92d2;
+}
+
+#submit{
+	height: 40px;
+	width: 100%;
+	border-radius: 40px;
+	font-size: 20px;
+	background: linear-gradient(to right,#1c92d2,#f2fcfe);
+	border: none ;
+	color: White;
+	cursor:pointer ;
+}
+
+#submit:hover{
+	background: linear-gradient(to right,#f2fcfe,#1c92d2);
+	font-size: 25px;
+	border: 1px solid #1c92d2;
+	font-family:chiller;
+}
+
+.in{
+	font-size: 20px;
+	border: none;
+	border-bottom: 2px solid #1c92d2;
+	background: none;
+	padding-left: 20px;
+	border-radius: 5px;
+	width: 100%;
+	height: 30px;
+}
+
+img{
+	opacity: 0.9;
+}
+img{
+	position: absolute;
+	margin-top:-90px ;
+	margin-left: 130px;
+}
+
+#girl{
+	margin-top:5px ;
+	margin-bottom:5px ;
+	margin-left:1100px ;
+	opacity: 80%;
+	border-radius: 100px;
+}

@@ -1,0 +1,80 @@
+body{
+	background-image: url('contact.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 400px;
+	margin-top: 0px;
+}
+.img{
+	font-size: 50px;
+	color: white;
+	font-family: Arial Black;
+	padding-left: 30px;
+}
+.cont{
+	padding-left: 22px;
+	color:light gray;
+	font-family: Arial Black;
+	font-size: 25px;
+}
+.form{
+	text-align: center;
+}
+
+.head{
+	width: 100%;
+	padding-left: 30px;
+}
+.center{
+	width: 100%;
+	padding-left: 30px;
+}
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 100;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.footer{
+	background-color: skyblue;
+	height: 200px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	opacity: 0.8;
+}
+form{
+	width: 250px;
+	height: 120px;
+	color: gray;
+	border-width: 0px;
+	padding: 8px; 
+	border-radius: 5px;
+	margin: 4px;
+}
+input{
+	width: 250px;
+	height: 20px;
+	color: gray;
+	border-width: 0px;
+	padding: 8px; 
+	border-radius: 5px;
+	margin: 4px;
+}
+.button {
+  transition-duration: 0.4s;
+	width: 265px;
+	height: 35px;
+	border-radius: 5px;
+	padding: 8px;
+	border-width: 0px;
+	margin: 4px;
+}
+
+.button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}

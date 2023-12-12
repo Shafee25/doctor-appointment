@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SEU/IS/19/ICT/024</title>
+</head>
+<style type="text/css">
+
+	div{
+		width:450px;  
+		height: 850px; 
+        margin:auto;  
+        padding:80px; 
+        border: 2px solid: #00334d; 
+		background-color:#ffffff80 ;
+        border-radius:15px ;
+        float:center;
+		color:#000033;
+		
+	}
+
+	h1{  
+    text-align:center;  
+    color: #00001a;  
+    padding:10px;  
+  	} 
+
+  	hr {
+  	border: 1px solid  #33adff;
+  	margin-bottom: 25px;
+	} 
+
+	.registerbtn:hover {
+  	 opacity:5;
+  	 background-color:#80d4ff;
+	}
+	
+  body {
+    background-color:white;
+    background-image:url("registration.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  form{
+    border-width: 2px;
+    border-color: #80d4ff;
+	background-image-opacity:0.2;
+  }
+  
+  #box{
+	height: 40px;
+	width: 100%;
+	font-size: 20px;
+	background-color:#ffffff80 ;
+	border-radius:5px;
+	border-color:#80d4ff #80d4ff #33adff #33adff;
+  }
+  
+  #gen{
+	height: 20px;
+	width: 20px;
+	color:#33adff;
+  }
+  
+  #submit{
+	height: 40px;
+	width: 100%;
+	border-radius: 40px;
+	font-size: 20px;
+	background: linear-gradient(to right,#0047b3,#80dfff);
+	border: none ;
+	color: White;
+	cursor:pointer ;
+	
+}
+
+
+
+</style>
+<body style="padding:20px 20px 20px 20px;"></style>
+
+	<form action="action_page.php">
+  <div class="Registration">
+    <h1> Registration Page</h1>
+	<h2>
+    <p>Please fill in this form to create an account.</p>
+    <hr>
+
+    <label><b>First Name</b></label><br>    
+    <input type="text" name="Fname" id="box" placeholder="First Name"><br><br> 
+	
+	 <label><b>Last Name</b></label><br>    
+    <input type="text" name="lname" id="box" placeholder="Last Name"><br><br> 
+
+    <label><b>Age</b></label><br>    
+    <input type="text" name="age" id="box" placeholder="Age"><br><br> 
+
+    <label for="email"><b>Email</b></label><br>
+    <input type="text" placeholder="Enter Email" name="email" id="box" required><br><br>
+
+
+    <label>Gender:</label>
+    <label for="male"><br>
+    <input type="radio" name="gender" value="male" id="gen">Male</label>
+    <label for="female"><br>
+    <input type="radio" name="gender" value="female" id="gen">Female</label><br><br>
+    
+    <hr>
+    <input type="submit" name="submit" value="Registration" id="submit"><br><br>
+    <input type="submit" name="submit" value="Login" id="submit"><br><br>
+	</h2>
+    <br><br><br><br>
+  </div>
+  
+</form>
+</body>
+</html>
